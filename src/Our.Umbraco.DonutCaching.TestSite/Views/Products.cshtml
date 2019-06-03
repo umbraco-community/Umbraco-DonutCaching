@@ -8,6 +8,11 @@
 
     <div class="container">
 
+        <h2>Cached: @DateTime.Now.Ticks</h2>
+        @Html.NoDonutCachePartial("~/Views/Partials/TestTicks.cshtml")
+
+        @Html.Action("Index", "TestSiteDonut", true)
+
         <!-- todo: implement category selector -->
         <!--
         <nav class="nav-bar nav-bar--center nav-bar--air-bottom">

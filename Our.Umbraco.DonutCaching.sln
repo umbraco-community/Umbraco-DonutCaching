@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28803.352
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our.Umbraco.DonutCaching", "src\Our.Umbraco.DonutCaching\Our.Umbraco.DonutCaching.csproj", "{211D47AE-A96C-4D89-8B7F-AF5CC862A2DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Our.Umbraco.DonutCaching.TestSite", "src\Our.Umbraco.DonutCaching.TestSite\Our.Umbraco.DonutCaching.TestSite.csproj", "{56E2FFC3-09E7-4177-9153-73010507F6E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{211D47AE-A96C-4D89-8B7F-AF5CC862A2DC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{211D47AE-A96C-4D89-8B7F-AF5CC862A2DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{211D47AE-A96C-4D89-8B7F-AF5CC862A2DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{211D47AE-A96C-4D89-8B7F-AF5CC862A2DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56E2FFC3-09E7-4177-9153-73010507F6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56E2FFC3-09E7-4177-9153-73010507F6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56E2FFC3-09E7-4177-9153-73010507F6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56E2FFC3-09E7-4177-9153-73010507F6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {675BDDC4-8863-4532-A2DC-3B3A98F89FAB}
+	EndGlobalSection
+EndGlobal
